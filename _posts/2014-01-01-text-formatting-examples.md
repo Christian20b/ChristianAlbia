@@ -1,169 +1,141 @@
 ---
 layout: post
-title: "Text Formatting Examples"
-author: "Paul Le"
+title: "Modelo de procesos de software"
+author: "ChristianAlbia"
 categories: journal
 tags: [documentation,sample]
 image: cards.jpg
 ---
 
-# Markdown Support
+## Modelo de procesos de Software
 
-As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/). Examples of these text formatting features can be seen below. You can find this post in the `_posts` directory.
+<h2>El modelo de cascada</h2>
+  <p>Modelo de Plan-impulsado. Fases separadas y distintas de especificación y desarrollo.</p>
+<h2>El desarrollo incremental</h2>  
+   <p>Especificación, desarrollo y validación se intercalan. Puede ser el plan impulsado o ágil.</p>
+   <p></p>
+   <p>Ingeniería de software orientado a reutilización</p>
+   <p>-El sistema se ensambla a partir de componentes existentes. Puede ser el plan impulsado o ágil. </p>
+   <p>En la práctica, la mayoría de los grandes sistemas se desarrollan mediante un proceso que incorpora elementos de todos estos modelos.</p> 
 
-## Basic Formatting
+## Modelo Cascada
 
-With Markdown, it is possible to emphasize words by making them *italicized*, using *astericks* or _underscores_, or making them **bold**, using **double astericks** or __double underscores__. Of course, you can combine those two formats, with both _**bold and italicized**_ text, using any combination of the above syntax. You can also add a strikethrough to text using a ~~double tilde~~.
+   <p>Las fases están identificadas por separado:</p>
+   <p>•  El análisis  y definición de requerimientos</p>
+   <p>•  Diseño del sistema y software.</p>
+   <p>•  Pruebas de implementación de unidades</p>
+   <p>•  Integración y pruebas del sistema </p>
+   <p>•  Operación y mantenimiento </p>
+   <p>El principal inconveniente del modelo de la cascada es la dificultad de acomodar el cambio después de que está en marcha el proceso. En principio, una fase tiene que ser completada antes de pasar a la siguiente fase.</p>
+<h2>Problemas del Modelo de Cascada:</h2>
+   <p>•  Inflexible división del proyecto en fases distintas hace que sea difícil responder a las necesidades cambiantes de los clientes. </p>
+   <p>•  Por lo tanto, este modelo sólo es apropiado cuando los requisitos son bien entendidos y los cambios serán bastante limitados durante el proceso de diseño.</p>
+   <p>•  Pocos sistemas tienen requisitos estables.</p>
+   <p>•  El modelo de cascada se utiliza sobre todo para los grandes proyectos de ingeniería de sistemas en que un sistema se desarrolla en varios lugares</p>
 
-## Paragraphs
-
-This is what a paragraph looks like. For the purpose of demonstration, the rest of this paragraph and the next paragraph after will mean absolutely nothing. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 
-## Headings
+## Desarrollo Incremental
 
-Sometimes it is useful to have different levels of headings to structure your documents. Start lines with `#` to create headings. Multiple `##` in a row denote smaller heading size. The following demonstrate the full range of heading sizes:
+<h2>Beneficios</h2>
+   <p>•  El costo de atender las necesidades cambiantes de los clientes se reduce. </p>
+   <p>--La cantidad de análisis y la documentación que tiene que ser hecho de nuevo es mucho menor que la que se requiere con el modelo de cascada. </p>
+    <p>•  Es más fácil obtener retroalimentación de los clientes en el trabajo de desarrollo que se ha hecho.</p>
+    <p>--Los clientes pueden hacer comentarios sobre las manifestaciones del software y ver cuánto se ha implementado. </p>
+    <p>•  Más rápida entrega y despliegue de software de utilidad para el cliente es posible. </p>
+    <p>--Los clientes pueden usar y obtener valor a partir del software anterior que es posible con un proceso de cascada.</p>
+<h2>Problemas:</h2>
+    <p>•  El proceso no es visible.</p>
+    <p>--Los gerentes necesitan entregas regulares para medir el progreso. Si se desarrollan rápidamente los sistemas, no es rentable para producir documentos que reflejen todas las versiones del sistema.</p>
+    <p>•  Estructura del sistema tiende a degradarse a medida que se añaden nuevos incrementos. </p>
+    <p>--A menos tiempo y dinero que se gasta en la refactorización para mejorar el software, cambio regular tiende a corromper su estructura. La incorporación de nuevos cambios de software se vuelve cada vez más difícil y costoso. </p>
 
-# Heading One (h1)
 
-## Heading Two (h2)
 
-### Heading Three (h3)
+## Espiral
 
-#### Heading Four (h4)
+<h3>Definición:</h3>
+   <p>•  Es un modelo de ciclo de vida desarrollado por Barry Boehm en 1988. </p>
+   <p>•  Las actividades de este modelo son una espiral, cada bucle es una actividad. </p>
+   <p>•  Las actividades no están fijadas a prioridad, sino que las siguientes se eligen en función del análisis de riesgo, comenzando por el bucle interior.</p>
+   <p>•  En este modelo, el esfuerzo de desarrollo es iterativo. Tan pronto como uno completa un esfuerzo de desarrollo, otro comienza. Además, en cada desarrollo ejecutado, puedes seguir estos cuatros pasos.</p>
+   <p>1.  Determinar qué quieres lograr. </p>
+   <p>2.  Determinar las rutas alternativas que puedes tomar para lograr estas metas. Por cada una, analizar los riesgos y resultados finales, y seleccionar la mejor. </p>
+   <p>3.  Seguir la alternativa seleccionada en el paso 2.</p>
+   <p>4.  Establecer qué tienes terminado. </p>
+<h2>Principios Básicos:</h2>
+   <p>•  Decidir qué problema se quiere resolver antes de viajar a resolverlo. </p>
+   <p>•  Examinar tus múltiples alternativas de acción y elegir una de las más convenientes. </p>
+   <p>•  Evaluar qué tienes hecho y qué tienes que haber aprendido después de hacer algo. </p>
+   <p>•  No ser tan ingenuo para pensar que el sistema que estás construyendo será "EL" sistema que el cliente necesita, y </p>
+   <p>•  Conocer (comprender) los niveles de riesgo, que tendrás que tolerar.  </p>
+   <p>El Modelo Espiral mejora el Modelo de Cascada enfatizando la naturaleza iterativa del proceso de diseño. Eso introduce un ciclo de prototipo iterativo. En cada iteración, las nuevas expresiones que son obtenidas transformando otras dadas son examinadas para ver si representan progresos hacia el objetivo.  </p>
+<h2>Actividades principales:</h2>
+   <p>PRIMER PASO. Identificación de:</p>
+   <p>•  Los objetivos de la parte del producto que está siendo elaborada (rendimientos, funcionalidad, adaptación al cambio, etc.). </p>
+   <p>•  Las alternativas principales de la implementación de esta porción del producto (usar el diseño A, usar el diseño B, reutilizar el módulo X de la aplicación Z, comprar a un proveedor externo, etc.). </p>
+   <p>•  Las restricciones impuestas para cada alternativa (costes, planificaciones, interfaces, etc.). </p>
+   <p>SEGUNDO PASO</p>
+   <p>•  Evaluar las diferentes alternativas que se plantean teniendo en cuenta los objetivos a conseguir y las restricciones impuestas. Frecuentemente, este paso identifica las áreas de incertidumbre del proyecto con sus correspondientes riesgos.</p>
+   <p>•  Si existen riesgos, lo siguiente es la formulación de una estrategia efectiva en coste (utilizando prototipos, simulación, bancos de prueba, cuestionario para los usuarios, modelización analítica o combinaciones de éstas y otras técnicas de resolución de riesgos) para resolver dichos riesgos.</p>
+   <p>TERCER PASO. Consiste en desarrollar, verificar y validar (probar):</p>
+   <p>•  Tareas de la actividad propia y de prueba.</p>
+   <p>•  Análisis de alternativas e identificación resolución de riesgos. </p>
+   <p>•  Dependiendo del resultado de la evaluación de los riesgos, se elige un modelo para el desarrollo, el que puede ser cualquiera de los otros existentes, como formal, evolutivo, cascada, etc. </p>
+   <p>CUARTO PASO. Revisar todo lo hecho, evaluándolo, y con ello decidir si se continúa con las fases siguientes y planificar la próxima actividad. </p>
+<h2>Características:</h2>
+   <p>•  En cada giro se construye un nuevo modelo del sistema completo. </p>
+   <p>•  Este modelo puede combinarse con otros modelos de proceso de desarrollo (cascada, evolutivo). </p>
+   <p>•  Mejor modelo para el desarrollo de grandes sistemas. </p>
+   <p>•  El análisis de riesgo requiere la participación de personal  altamente calificado.  </p>
+<h2>Ventajas:</2h>
+   <p>•  El modelo en espiral puede adaptarse y aplicarse a lo largo de la vida del software de computadora. </p>
+   <p>•  Como el software evoluciona a medida que progresa el proceso, el desarrollador y el cliente comprenden y reaccionan mejor ante riesgos en cada uno de los nivele evolutivos. </p>
+   <p>•  El modelo en espiral permite a quien lo desarrolla aplicar el enfoque de construcción de prototipos en cualquier etapa de evolución del producto.   </p>
+   <p>•  El modelo en espiral demanda una consideración directa de los riesgos técnicos en todas las etapas del proyecto y si se aplica adecuadamente debe reducir los riesgos antes de que se conviertan en problemas. </p>
+   <p>•  En la utilización de grandes sistemas a doblado la productividad.   </p>
 
-##### Heading Five (h5)
 
-###### Heading Six (h6)
 
 ## Links
 
-You can create an inline link by wrapping link text in square brackets `[ ]`, and then wrapping the URL in parentheses `( )`. For example, it is very easy to [link to Google!](http://google.com).
 
 ## Blockquotes
 
-Blockquotes are useful for denoting quotes, or highlighting a large block of text. Single line blockquote:
 
-> This quote will change your life.
-
-Multi line blockquote with a cite reference:
-
-> People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.
 
 ## Code and Syntax Highlighting
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers - like GitHub or most Jekyll themes - support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Also, it is possible to do `inline code blocks`, by wrapping the text in ` ` ` quotations.
 
-```
-No language indicated, so no syntax highlighting.
-```
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-{% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
 
 ## Images
 
-To add an image, use `![alt text](<Image url> "Image meta title")`:
 
-![alt text](http://noirve.com/wp-content/uploads/2013/10/DTTSP_Coffee.jpg "Example")
+
+
 
 ## Unordered and Numbered Lists
 
-You can make an unordered and nested list by preceding one or more lines of text with `-`, `*`, or `+`, and indenting sublists. The following lists show the full range of possible list formats.
 
-* List item one
-    * List item one
-        * List item one
-        * List item two
-        * List item three
-        * List item four
-    * List item two
-    * List item three
-    * List item four
-* List item two
-* List item three
-* List item four
 
-Numbered lists are made by using numbers instead of bullet points.
-
-1. List item one
-    1. List item one
-        1. List item one
-        2. List item two
-        3. List item three
-        4. List item four
-    2. List item two
-    3. List item three
-    4. List item four
-2. List item two
-3. List item three
-4. List item four
 
 ## MathJax Example
 
-The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) is a partial differential equation that describes how the quantum state of a quantum system changes with time:
-
-$$
-i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)
-$$
-
-[Joseph-Louis Millennial](https://en.wikipedia.org/wiki/Joseph-Louis_Millennial) was an Italian mathematician and astronomer who was responsible for the formulation of Lagrangian mechanics, which is a reformulation of Newtonian mechanics.
-
-$$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j} $$
 
 ## Tables
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | :-------------------: | :-------------------- | --------------------:
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
 ## Embedding
 
-Plenty of social media sites offer the option of embedding certain parts of their site on your own site, such as YouTube and Twitter:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mthtn1X4eUY" frameborder="0" allowfullscreen></iframe>
-
-<a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/paululele/timelines/755079130027352064">New Collection</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Inline HTML elements
 
-HTML defines a long list of available inline tags, which you can mix with Markdown if you like. A complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
 
 ## Horizontal Rule
 
-Can be created by having three or more hyphens `---`, asterisks `***`, or underscores `___`:
 
----
 
 ## Useful Resources
 
-More information on Markdown can be found at the following links:
 
-- [Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#code)
-- [Quick Markdown Example](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html)
-- [Markdown Basics](https://daringfireball.net/projects/markdown/basics)
-- [GitHub Flavoured Markdown Spec](https://github.github.com/gfm/)
-- [Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists)
