@@ -1,5 +1,24 @@
 # Site Build Settings
-
+tittle:                  Christian Albia
+tagline:
+description:
+baseurl:                 #"/ChristianAlbia"  
+url:                     #"https://Christian20b.github.io"
+github:
+url:                     #"https://Christian20b.github.io/ChristianAlbia"
+author:
+  name:                  "Christian"
+  email:                 "calbia7@gmail.com"
+  instagram:             "adoniz10"
+  github:                "Christian20b"
+  facebook:              "Christian Albia"
+navigation:
+-title: ¿Quién soy yo?
+  url: /about
+-title: Publicaciones
+  url: /writing
+-title: Contacto
+  url: /contact         
 # Jekyll-paginate-v2 configuration
 #  pagination:
 #   enabled: true
