@@ -4,7 +4,7 @@ title: "Introducción a la Ingeníeria en Software-Unidad I"
 author: "Christian"
 categories: journal
 tags: [documentation,sample]
-image: mountains.jpg
+image: ingenieria-software.jpg
 ---
 <h1>FUNDAMENTOS A LA INGENIERÍA DE SOFTWARE</h1>
 <h2>Definición de IS</h2>
