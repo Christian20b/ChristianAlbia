@@ -7,12 +7,19 @@ tags: [documentation,sample]
 image: mountains.jpg
 ---
 
-Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra las clases recibidas en la asignatura de Introducción en la Ingeniería en Software..
+Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por nuestro profesor. Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra información personal y  las clases recibidas en la asignatura de Introducción en la Ingeniería en Software..
 
-## Educación
+## Estudios realizados
 
- getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+ Primaria:                                      Escuela Particular Mixto
+                                                 "Alba Calderon De Gil"
+                                                
 
+ Secundaria:                                    Colegio Particular  
+                                        "Academia Naval Almirante Illingworth"
+
+Titulo Obtenido:                                Bachiller en Sistemas
+                                                     207-2018
 ## Example Content
 
 [Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
