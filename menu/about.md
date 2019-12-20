@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Información Personal
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por nuestro profesor. Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra información personal y  las clases recibidas en la asignatura de Introducción en la Ingeniería en Software..
 
 ### Getting Started
 

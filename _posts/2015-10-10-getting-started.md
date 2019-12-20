@@ -9,7 +9,7 @@ image: forest.jpg
 
 # Lagrange
 
-Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por nuestro profesor. Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra información personal y  las clases recibidas en la asignatura de Introducción en la Ingeniería en Software..
+
 
 ![alt text](https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png "Lagrange Demo Image")
 
