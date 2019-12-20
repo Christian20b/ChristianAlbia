@@ -176,8 +176,8 @@ image: forest.jpg
    <p>-Un Análisis de Sistemas</p>
    <p>--Se define el papel de cada elemento en el sistema automatizado de información, incluyendo el que jugará el software</p>
    <p>-Un Análisis de Requisitos</p>
-   <p>--Se especifican todos los requisitos de usuario que el sistema tiene que satisfacer</p>
-   <p>--Esta fase está orientada al QUÉ</p>
+   <p>-Se especifican todos los requisitos de usuario que el sistema tiene que satisfacer</p>
+   <p>-Esta fase está orientada al QUÉ</p>
    <p>---Qué información ha de ser procesada, qué función y rendimiento se desea, qué interfaces han de establecerse, qué ligaduras de diseño existen y qué criterios de validación se necesitan para definir un sistema correcto</p>
    <p>Existe un paso complementario: la planificación del proyecto software:</p>
    <p>-Se asignan los recursos</p>
