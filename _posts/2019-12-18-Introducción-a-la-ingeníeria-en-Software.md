@@ -15,6 +15,7 @@ Definición de IS
 <p>•  Meyer, 1988: La Ingeniería de Software es la producción de software de calidad.<p/>
 <p>•  IEEE 1993: La Ingeniería de Software es la aplicación de un enfoque sistemático, disciplinado y cuantificable hacia el desarrollo, operación y mantenimiento del software; es decir, la aplicación de Ingeniería de Software.<p/>
 <p>La ingeniería de software es una aplicación práctica del conocimiento científico para proveer metodologías y técnicas que ayuden a desarrollar sistemas de software a tiempo, y a su vez que aseguren que el desarrollador cumpla con las expectativas de calidad y permanezca dentro del presupuesto.<p/>
+	
 <h3>Objetivos de la IS</h3>
  <p>•   Diseñar programas informáticos que se adecúen a las exigencias de la sociedad.</p>
  <p>•   Liderar y acoplar el desarrollo de programaciones complicadas.</p>
