@@ -19,12 +19,7 @@ Definición de IS
 
 ## Estudios realizados
 
- Primaria:                                      Escuela Particular Mixto
-                                                 "Alba Calderon De Gil"
-                                                
- Secundaria:             Colegio Particular "Academia Naval Almirante Illingworth"
 
-Titulo Obtenido:         Bachiller en Sistemas 207-2018
 ## Example Content
 
 [Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
