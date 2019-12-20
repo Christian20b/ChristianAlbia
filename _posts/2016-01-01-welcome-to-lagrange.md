@@ -14,12 +14,9 @@ Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por
  Primaria:                                      Escuela Particular Mixto
                                                  "Alba Calderon De Gil"
                                                 
+ Secundaria:             Colegio Particular "Academia Naval Almirante Illingworth"
 
- Secundaria:                                    Colegio Particular  
-                                        "Academia Naval Almirante Illingworth"
-
-Titulo Obtenido:                                Bachiller en Sistemas
-                                                     207-2018
+Titulo Obtenido:         Bachiller en Sistemas 207-2018
 ## Example Content
 
 [Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
