@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
-author: "Paul Le"
+title: "Informacion Personal"
+author: "Christian"
 categories: journal
 tags: [documentation,sample]
 image: mountains.jpg
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra las clases recibidas en la asignatura de Introducción en la Ingeniería en Software..
 
-## Getting Started
+## Educación
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+ getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
 
 ## Example Content
 
