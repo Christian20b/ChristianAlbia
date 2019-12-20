@@ -7,7 +7,7 @@ tags: [documentation,sample]
 image: forest.jpg
 ---
 
-# El proceso del Software
+## El proceso del Software
 
   <p>•  Conjunto de actividades necesarias para transformar las ideas iniciales del usuario, que desea automatizar un determinado trabajo, en software.</p>
   <p>•  Conjunto ordenado de actividades; una serie de pasos que involucran tareas, restricciones y recursos que producen una determinada salida esperada.</p>
