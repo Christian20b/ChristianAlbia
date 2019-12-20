@@ -6,14 +6,33 @@ title: Información Personal
 Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por nuestro profesor. Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra información personal y  las clases recibidas en la asignatura de Introducción en la Ingeniería en Software.
 
 
-### Getting Started
+### Datos
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+Apellidos: Albia Bazurto
 
-### Example Content
+Nombres:   Christian Adonis
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+Edad:      20 años
 
-### Questions?
+Nacionalidad: Ecuatoriana
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+### Estudios realizados
+
+Primarios:  Escuela Particular Mixto "Alba Calderón De Gil"
+
+Secundarios: Colegio Particular "Academia Naval Almirante Illingworth"
+
+Título Obtenido: Bachillerato en Sistemas 2017-2018
+
+
+
+
+### Experiencias
+
+Ambiensa servicios s.a
+
+Hice mis pasantías en esta empresa bajo la supervisión de un técnico, realicé actividades tales como:
+
+<p>• Instalación de Windows </p>
+<p>• Inventarios de los equipos </p>
+<p>• Formateo y compartición de discos </p>
