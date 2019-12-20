@@ -3,7 +3,8 @@ layout: page
 title: Información Personal
 ---
 
-Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por nuestro profesor. Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra información personal y  las clases recibidas en la asignatura de Introducción en la Ingeniería en Software..
+Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por nuestro profesor. Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra información personal y  las clases recibidas en la asignatura de Introducción en la Ingeniería en Software.
+
 
 ### Getting Started
 
