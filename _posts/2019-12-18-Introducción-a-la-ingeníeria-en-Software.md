@@ -104,7 +104,7 @@ image: ingenieria-software.jpg
   <p>•  Facilidad de Mantenimiento: es la sencillez con que un programa puede corregirse si se encuentra un error, al adaptarse si su entorno cambio o mejorar si el cliente cambia los requisitos y se mide en forma indirecta en TMC (Tiempo Medio de Cambio).</p>
   <p>•  Integridad: es la habilidad de un sistema para resistir ataques que requiere la definición de amenaza y seguridad y se calcula: integridad = 1 – (amenaza * (1 – seguridad)).Proceso de Ingeniería de software</p>
   <p>Por ejemplo, dados los siguientes valores de un paquete de base de datos en dos proyectos, podemos calcular la integridad</p>
-  `![alt text](<Image url> "img/ingenieria-software")`:
+  ![alt text](<Image url> "img/ingenieria-software")
   <p>•  Solución:</p>
   <p>-Integridad para el proyecto 1:</p>
   <p>__Integridad = 1 – 0.7 * (1 – 0) = 0.3</p>
