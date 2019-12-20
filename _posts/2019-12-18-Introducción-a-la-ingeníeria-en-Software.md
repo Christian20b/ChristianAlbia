@@ -124,8 +124,8 @@ image: mountains.jpg
   <p>6. Métricas orientadas a la función o puntos de función</p>
   <p>•  Son medidas indirectas del software y del proceso por el cual se desarrolla. En lugar de calcular las líneas de código (LDC), las métricas de función se centran en la funcionalidad o utilidad del programa. Los puntos de función nos indican la medida de la productividad.</p>
   <p>•  Los puntos de función se obtienen utilizando una función empírica basado en medidas cuantitativas del dominio de información del software y valoraciones subjetivas de la complejidad del software.</p>  
-  <h3>Problemas en el desarrollo de software </h3>   
-<p>¿Qué es un proyecto software? </p>
+<h3>Problemas en el desarrollo de software </h3>   
+  <p>¿Qué es un proyecto software? </p>
   <p>Haciendo uso de la definición de proyecto de la guía del PMBOK, y adaptándola a un proyecto software, podríamos definirlo como: “Un proyecto software es un esfuerzo temporal que se lleva a cabo para crear un producto software, servicio TI o resultado único.”</p>
   <p>¿Pero que es el software? </p>
   <p>Según la definición del IEEE, "software es la suma total de los programas de ordenador, procedimientos, reglas, la documentación asociada y los datos que pertenecen a un sistema de cómputo", y "un producto de software es un producto diseñado para un usuario".</p>
@@ -139,5 +139,86 @@ image: mountains.jpg
   <p>-La juventud de la ingeniería del software con respecto a otras ingenierías, la mayoría del software se construye a medida, en vez de ensamblar componentes previamente creados. Aunque ya se están dando importantes pasos en esta dirección, que facilitaría en gran medida el desarrollo de aplicaciones informáticas.</p>
   <p>-En el software, el recurso principal son las personas. No es siempre posible acelerar la construcción de software añadiendo personas porque la construcción de software requiere un esfuerzo en equipo. El equipo tiene que trabajar de forma coordinada y compartir un objetivo de proyecto común. Se necesita comunicación efectiva dentro del equipo. </p>
   <p>-El software no se estropea, pero se deteriora. Durante su vida, el software sufre cambios (mantenimiento). Conforme se hacen los cambios, es bastante probable que se introduzcan nuevos defectos, lo que hace que el software se vaya deteriorando debido a estos cambios.</p>              
+<h2>Visión general del proceso de ingeniería del software </h2>
+<h3>Desarrollo</h3>
+  <p>¿Cómo construir el sistema?</p>
+  <p>•  Se diseñan las estructuras de los datos y los programas.</p>
+  <p>-Como se caracterizan las interfaces.</p>
+  <p>-Como realizar el paso del diseño al lenguaje de programación.</p>
+  <p>-Como ha de realizarse la prueba. </p>
+  <p>•  Se escriben y documentan los programas.</p>
+  <p>•  Y se prueba el software construido.</p>
+<h3>Mantenimiento</h3>
+  <p>•  Comienza una vez construido el sistema.</p>
+  <p>•  Se centra en el cambio.</p>
+  <p>•  El software es sometido a reparaciones y modificaciones cada vez que se detecta un fallo o se necesita cubrir una nueva necesidad de los usuarios.</p>
+  <p>•  En esta fase recae el mayor porcentaje del costo de un sistema.</p>
+  <p>•  Un buen sistema no es sólo un conjunto de programas que funcionan bien => Debe ser fácil de mantener</p>
+  <p>Tipos de mantenimiento.</p>
+  <p>-Correctivo. El programa no funciona correctamente, hay que modificarlo.</p>
+  <p>-Perfectivo. Se modifica el programa para obtener más eficiencia o nuevas funcionalidades no especificadas en la definición del sistema.</p>
+  <p>-Adaptativo. Adaptar el programa a los cambios en su entorno (cambio de SO, de CPU, de legislación, …)</p>
+  <p>-Preventivo. El software se deteriora con los cambios, este mantenimiento hace cambios para que los programas se puedan corregir, adaptar y mejorar más rápidamente -> Reingeniería del SW.</p>                
+<h3>Responsabilidad ética y profesional en ingeniería del software</h3>
+  <p>La IS se realiza dentro de un marco social y legal que limita la libertad de la gente que trabaja en dicha área.</p>
+  <p>Los ingenieros de software: </p>
+  <p>•  Deben aceptar que su labor implica responsabilidades mayores que la simple aplicación de habilidades técnicas.</p>
+  <p>•  Deben comportarse de forma ética y moralmente responsable para ser respetado como un ingeniero profesional.</p>
+  <p>Existen áreas donde los estándares de comportamiento aceptable no están acotados por las leyes, sino por la responsabilidad profesional, algunas de estas son:</p>
+  <p>•  Confidencialidad. Respetar la confidencialidad de sus empleadores o clientes, independientemente de que se haya firmado un acuerdo formal de confidencialidad.</p>
+  <p>•  Competencia. No debe falsificar su nivel de competencia, ni aceptar conscientemente trabajos que están fuera de su capacidad.</p>
+  <p>•  Derechos de propiedad intelectual. Debe ser consciente de las leyes locales que gobiernan el uso de la propiedad intelectual, como las patentes el el copyright. Debe asegurarse de que la propiedad intelectual de los empleadores y clientes está protegida.</p>
+  <p>•  Uso inapropiado de las computadoras. No debe emplear sus habilidades técnicas para utilizar de forma inapropiada las computadoras de otras personas. Desde los relativamente triviales (utilizar juegos en las maquina de un empleado, por ejemplo) hasta los extremadamente serios (difusión de virus).</p>
 
-                 
+<h3>Código de ética (ACM/IEEE) </h3>
+  <p>Los ingenieros de software deberán comprometerse consigo mismo en convertir el análisis, especificación, diseño, desarrollo, prueba y mantenimiento de software en una profesión respetable y beneficiosa. </p>
+  <p>De acuerdo con su compromiso con la salud, seguridad y bienestar del público, los ingenieros de software deberán apegarse a ocho principios.</p>
+<h2>Principios del código</h2>  
+  <p>Público.- Los ingenieros de software deberán actuar consistentemente con el interés público.</p>
+  <p>Cliente y Empleador.- Los ingenieros de software deberán actuar de una forma determinada que esté en los mejores intereses de su cliente y empleador consistente con el interés público.</p>
+  <p>Producto.- Los ingenieros de software deberán asegurar que sus productos y modificaciones relacionadas logren el más alto estándar profesional posible.</p>
+  <p>Juicio.- Los ingenieros de software deberán mantener integridad e independencia al emitir su juicio profesional.</p>
+  <p>Gerencia.- Los gerentes y lideres de ingeniería de software deberán suscribirse y promocionar un enfoque ético para la gerencia de desarrollo y mantenimiento del software.</p>
+  <p>Profesión.- Los ingenieros de software deberán fomentar la integridad y reputación de la profesión consistente con el interés público.</p>
+  <p>Colegas.- Los ingenieros de software deberán ser justos y comprensivos con sus colegas.</p>
+  <p>Interés Propio. Los ingenieros de software deberán participar en el aprendizaje de por vida del ejercicio de su profesión y deberán promover un enfoque ético para el ejercicio de la misma.</p>
+<h2>Concepto</h2>
+  <p>Un sistema de información es un conjunto de elementos interrelacionados con el propósito de prestar atención a las demandas de información de una organización, para elevar el nivel de conocimientos que permitan un mejor apoyo a la toma de decisiones y desarrollo de acciones (Peña, 2006).</p>
+  <p>Conjunto de elementos que interactúan entre sí con el fin de apoyar las actividades de una empresa o negocio. Teniendo muy en cuenta el equipo computacional necesario para que el sistema de información pueda operar y el recurso humano que interactúa con el Sistema de Información, el cual está formado por las personas que utilizan el sistema.</p>
+  <p>Un sistema de información realiza cuatro actividades básicas: entrada, almacenamiento, procesamiento y salida de información (Peralta, 2008).</p>
+  <p>-Entrada de Información: Es el proceso mediante el cual el Sistema de Información toma los datos que requiere para procesar la información.</p>
+  <p>-Almacenamiento de información: El almacenamiento es una de las actividades o capacidades más importantes que tiene una computadora, ya que a través de esta propiedad el sistema puede recordar la información guardada en la sección o proceso anterior.</p>
+  <p>-Procesamiento de Información: Es la capacidad del Sistema de Información para efectuar cálculos de acuerdo con una secuencia de operaciones preestablecida. </p>
+  <p>-Salida de Información: La salida es la capacidad de un Sistema de Información para sacar la información procesada o bien datos de entrada al exterior. </p>
+  <p>Otro autor define que: Un sistema de información es el sistema de personas, registros de datos y actividades que procesa los datos y la información en cierta organización, incluyendo manuales de procesos o procesos automatizados. (s/a, 2008).</p>
+<h3>Tipos de sistemas de información</h3>  
+  <p>Los sistemas de información, de manera general se pueden clasificar de tres formas según sus propósitos generales, en este sentido Peralta (2008) clasifica los sistemas de información en tres tipos fundamentales: (1) Sistemas transaccionales; (2) Sistemas de Soporte a la Toma de Decisiones, Sistemas para la Toma de Decisión de Grupo, Sistemas Expertos de Soporte a la Toma de Decisiones y Sistema de Información para Ejecutivos y (3) Sistemas estratégicos.</p>
+  <p>•  Sistemas transaccionales: Son Sistemas de Información que logran la automatización de procesos operativos dentro de una organización ya que su función primordial consiste en procesar transacciones tales como pagos, cobros, entradas, salidas, etc.</p>
+  <p>•  Sistemas de Soporte a la Toma de Decisiones, Sistemas para la Toma de Decisión de Grupo, Sistemas Expertos de Soporte a la Toma de Decisiones y Sistema de Información para Ejecutivos: Son Sistemas de Información que apoyan el proceso de toma de decisiones.</p>
+  <p>•  Sistemas Estratégicos: Son sistemas de información desarrollado en las organizaciones con el fin de lograr ventajas competitivas, a través del uso de la tecnología de información.</p>
+  <p>En dependencia del enfoque (tres en total), según reporta Peña (2006), los sistemas de información se pueden agrupar en una cierta clasificación, que brinda una idea esencial de su estructura y funcionamiento.</p>
+  <p>De acuerdo al elemento principal de proceso de la información, los sistemas de información pueden ser de tres tipos (Manual, Mecanizadas y Bath):</p>
+  <p>•  Manuales: cuando el hombre auxiliado por cierto equipo (máquinas de escribir, sumadoras, archivos, etc.) realiza las principales funciones de recopilación, registro, almacenamiento, cálculo y generación de información.</p>
+  <p>•  Mecanizadas: cuando cierta maquinaria realiza las principales funciones de procesamiento. Para los sistemas mecanizados que hacen uso de un computador, de acuerdo al tipo de interacción Hombre-Máquina, los sistemas de información pueden ser de dos tipos (Batch y en Línea]: </p>
+  <p>-Batch: el usuario proporciona los datos necesarios para la ejecución de un proceso y espera a que el computador termine la tarea para recibir los resultados; </p>
+  <p>-En Línea: existe un diálogo directo entre el usuario y el computador durante la ejecución de un proceso.</p>
+  <p>En cuanto a la organización física de los principales recursos de procesamiento de datos, los sistemas de información pueden ser de tipo:</p>
+  <p>•  Procesos centralizados: los recursos se encuentran ubicados en un área física determinada, por lo que su acceso se realiza en las misma instalación o desde lugares retirados, mediante líneas de comunicación de datos (telefónicas, microondas, satélite, etc.).</p>
+  <p>•  Proceso distribuido: los recursos se encuentran diseminados en diversos lugares de una zona territorial (ciudad, país, continente, etc.), por lo que el procesamiento se realiza en el propio lugar donde se originan los datos, existiendo la posibilidad de compartir información entre las diversas instalaciones, mediante la información de una “Red de Comunicación”.</p>
+<h3>Elementos de un sistema de información</h3>
+  <p>Los sistemas de información, según Peña (2006), tienen 5 elementos importantes, estos son:</p>
+  <p>•  Financieros</p>
+  <p>•  Administrativos</p>
+  <p>•  Humanos</p>
+  <p>•  Materiales</p>
+  <p>•  Tecnológicos</p>
+  <p>Sin embargo otro autor (s/a, 2008a) menciona que un sistema de información consiste en 3 elementos: humano, tecnología y organización. En teoría de sistemas, un sistema de información es un sistema automatizado o manual que involucra personas, máquinas y/o métodos organizados de recolección, procesos, transmisión, clasificación y divulgación de datos.</p>
+  <p>Otro autor desconocido (s/a, 2008b) plantea que un sistema de información está compuesto por 6 elementos claramente identificables, tal y como se muestran en la siguiente figura:</p>                                                  
+                                                 
+  <p>•  Base de Datos: Es donde se almacena toda la información que se requiere para la toma de decisiones. La información se organiza en registros específicos e identificables;</p>
+  <p>•  Transacciones: Corresponde a todos los elementos de interfaz que permiten al usuario: consultar, agregar, modificar o eliminar un registro específico de Información;</p>
+  <p>•  Informes: Corresponden a todos los elementos de interfaz mediante los cuales el usuario puede obtener uno o más registros y/o información de tipo estadístico (contar, sumar) de acuerdo a criterios de búsqueda y selección definidos.</p>
+  <p>Los restantes elementos de un sistema de información son:</p>
+  <p>•  Procesos: Corresponden a todos aquellos elementos que, de acuerdo a una lógica predefinida, obtienen información de la base de datos y generan nuevos registros de información. Los procesos sólo son controlados por el usuario (de ahi que aparezca en línea de puntos);</p>
+  <p>•  Usuario: Identifica a todas las personas que interactúan con el sistema, esto incluye desde el máximo nivel ejecutivo que recibe los informes de estadísticas procesadas, hasta el usuario operativo que se encarga de recolectar e ingresar la información al sistema y</p>
+  <p>•  Procedimientos Administrativos: Corresponde al conjunto de reglas y políticas de la organización, que rigen el comportamiento de los usuarios frente al sistema. Particularmente, debieran asegurar que nunca, bajo ninguna circunstancia un usuario tenga acceso directo a la Base de Datos.</p>  
