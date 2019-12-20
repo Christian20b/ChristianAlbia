@@ -13,11 +13,11 @@ author:
   github:                "Christian20b"
   facebook:              "Christian Albia"
 navigation:
--title: Quién soy yo
+- title: Quién soy 
   url: /about
--title: Publicaciones
+- title: Publicaciones
   url: /writing
--title: Contacto
+- title: Contacto
   url: /contact         
 # Jekyll-paginate-v2 configuration
 #  pagination:
