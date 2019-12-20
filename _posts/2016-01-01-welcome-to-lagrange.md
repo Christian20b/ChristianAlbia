@@ -1,13 +1,21 @@
 ---
 layout: post
-title: "Informacion Personal"
+title: "Introducción a la Ingeníeria en Software"
 author: "Christian"
 categories: journal
 tags: [documentation,sample]
 image: mountains.jpg
 ---
+FUNDAMENTOS A LA INGENIERÍA DE SOFTWARE
+Definición de IS
+<p>• Fritz Bauer, 1969: Más que una disciplina o una parte del conocimiento, la Ingeniería es un verbo, una palabra de acción, un modo de enfocar el problema.</p>
+<p>•  La Ingeniería del Software es el establecimiento y uso de principios robustos de la ingeniería a fin de obtener económicamente software que sea fiable y que funcione eficientemente sobre maquinas reales.<p/>
+<p>•  Bohem, 1976: Ingeniería del Software es la aplicación práctica del conocimiento científico en el diseño y construcción de programas de computadora y la documentación necesaria requerida para desarrollar, operar (funcionar) y mantenerlos.<p/>
+<p>•  Mills, 1980: La Ingeniería de Software tiene como uno de sus principales objetivos la producción de programas que cumplan las especificaciones, y que se demuestren correctos, producidos en el plazo y costo adecuado<p/>
+<p>•  Meyer, 1988: La Ingeniería de Software es la producción de software de calidad.<p/>
+<p>•  IEEE 1993: La Ingeniería de Software es la aplicación de un enfoque sistemático, disciplinado y cuantificable hacia el desarrollo, operación y mantenimiento del software; es decir, la aplicación de Ingeniería de Software.<p/>
+<p>La ingeniería de software es una aplicación práctica del conocimiento científico para proveer metodologías y técnicas que ayuden a desarrollar sistemas de software a tiempo, y a su vez que aseguren que el desarrollador cumpla con las expectativas de calidad y permanezca dentro del presupuesto.<p/>
 
-Estudiante de Ingeniería en Software. Esta página es un proyecto propuesto por nuestro profesor. Actualmente me encuentro estudiando en la prestigiosa Universidad de Guayaquil, esta es mi primera página web que muestra información personal y  las clases recibidas en la asignatura de Introducción en la Ingeniería en Software..
 
 ## Estudios realizados
 
